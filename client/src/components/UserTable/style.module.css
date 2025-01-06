@@ -16,12 +16,12 @@ td {
   padding: 2px;
 }
 
-td:hover{
-  background-color:  rgb(91, 88, 88);
+td:hover {
+  background-color: rgb(91, 88, 88);
 }
 
 td {
-  padding-left: 30px;  
+  padding-left: 30px;
   cursor: pointer;
 
 }

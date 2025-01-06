@@ -1,9 +1,5 @@
-
-
 import { useState } from 'react'
 import styles from './style.module.css'
-import axios from 'axios';
-import Add from '../Add';
 
 export default function FormInput({ onSubmit, title, user, deleteUser, switchToAdd }) {
 
@@ -11,15 +7,6 @@ export default function FormInput({ onSubmit, title, user, deleteUser, switchToA
 
    const [formState, setFormState] = useState(initialState)
    const [errorForm, setErrorForm] = useState({ firstName: '', lastName: '', email: '', password: '' })
-
-   // function isValidJSON(str) {
-   //    try {
-   //       JSON.parse(str);
-   //       return true;
-   //    } catch (e) {
-   //       return false;
-   //    }
-   // }
 
    const handleSubmit = (event) => {
       event.preventDefault();

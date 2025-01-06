@@ -1,7 +1,7 @@
 
 import React from 'react';
 import styles from './style.module.css';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function UserTable({ users, onClickId }) {
    const navigate = useNavigate();

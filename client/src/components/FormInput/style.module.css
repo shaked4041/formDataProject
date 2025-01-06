@@ -22,7 +22,6 @@
 .singleInput {
     margin-top: 15px;
     margin-bottom: 10px;
-    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
     column-gap: 1rem;
@@ -35,7 +34,6 @@ input {
     border-radius: 5px;
     outline: none;
     border: none;
-    /* margin-left: 10px; */
     margin-bottom: 5px;
 }
 
@@ -48,7 +46,6 @@ form button {
     background-color: #000;
     color: #fff;
     cursor: pointer;
-    /* margin-top: 30px; */
 }
 
 .error {
@@ -72,7 +69,6 @@ form button {
     height: 520px;
     background-color: #262626;
     box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
-    ;
     display: flex;
     justify-content: center;
     padding-top: 20px;

@@ -27,9 +27,6 @@ export default function Edit({ user, setUsers, onClickId, users }) {
          .catch(console.error);
       }
 
-   // const switchToAdd = () =>{
-   //    onClickId(null)
-   // }
 
    return (
       <div>
