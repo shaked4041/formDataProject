@@ -1,0 +1,32 @@
+.userTable {
+  width: 670px;
+  height: 520px;
+  background-color: #262626;
+  box-shadow: rgba(255, 255, 255, 0.311) 0px 7px 29px 0px;
+  ;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding-top: 20px;
+  max-width: 100%;
+}
+
+th,
+td {
+  padding: 2px;
+}
+
+td:hover{
+  background-color:  rgb(91, 88, 88);
+}
+
+td {
+  padding-left: 30px;  
+  cursor: pointer;
+
+}
+
+tr:nth-child(even) {
+  background-color: rgb(55, 54, 54);
+  color: aliceblue;
+}
